@@ -1,0 +1,19 @@
+.fecha-nota{
+   font-family: "Space Mono", monospace;
+   color: #adadad;
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+.linkClaseNoticia{
+    color: #ffffff;
+    background-color: #f15a08;
+    text-transform: uppercase;
+    font-size:11px;
+    font-family: "Space Mono", monospace;
+}
+
+.volanta{
+    
+    background-color: #cd4545;
+}

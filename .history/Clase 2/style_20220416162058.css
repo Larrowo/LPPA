@@ -1,0 +1,10 @@
+.fecha-nota{
+   position: absolute;
+   left: 100%;
+   transform: translate (-50%, -50%);
+   
+}
+
+.volanta{
+    position: relative;
+}

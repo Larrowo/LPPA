@@ -1,0 +1,11 @@
+.fecha-nota{
+   left: 100%;
+   top: 200%;
+   transform: translate (-50%, -50%);
+   
+}
+
+.volanta{
+    position: relative;
+    background-color: #cd4545;
+}
