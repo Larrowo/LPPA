@@ -22,10 +22,19 @@
   position: relative;
 }
 
+.headerContainer {
+  background-color: rgb(169, 196, 32);
+}
+
 .headerContent {
   float: right;
 }
 
+.logo {
+  background-color: #f15a08;
+}
+
 .linkHeader {
   font-size: 11px;
+  background-color: #08f13a;
 }

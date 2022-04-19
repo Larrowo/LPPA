@@ -22,8 +22,14 @@
   position: relative;
 }
 
+.headerContainer {
+}
+
 .headerContent {
   float: right;
+}
+
+.logo {
 }
 
 .linkHeader {
