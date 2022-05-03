@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+strong {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+p,
+h2 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 120%;
+  color: #000;
+}
+
+#site-header {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #00558c;
+  position: sticky;
+  top: 0;
+}
+
+#header-container {
+  width: 100%;
+  display: flex;
+}
+
+#site-header .nav-header {
+  width: calc(100% - 126px);
+  z-index: 2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: auto;
+  background: transparent;
+  position: static;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+}
+
+#site-header .nav-header .menu-header > li {
+  padding: 5px 25px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  height: 42px;
+}
+
+.social-header {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  order: 1;
+}
+
+.search-header{
+    order:0;
+}
+
+#top-post.top-post-divider .container {
+  /* position: relative; */
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-post .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#header-post {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+ .title-post {
+     justify-content: center;
+    max-width: 980px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 120%;
+  color: #000;
+}
+
+ .headline-post {
+    max-width: 980px;
+  font-size: 21px;
+  line-height: 130%;
+  padding: 0 100px;
+  color: #00558c;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#content-post {
+  display: flex;
+  justify-content: center;
+}
+
+.entry {
+  text-align: left;
+}
+
+.entry p {
+  color: #333333;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto 20px auto;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 0 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.social-share ul li a {
+  pointer-events: all;
+  display: flex;
+  /* -webkit-box-align: center; */
+  /* -ms-flex-align: center; */
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #00558c;
+  color: #fff;
+  font-size: 18px;
+  /* -webkit-transition: all 0.2s ease; */
+  /* -o-transition: all 0.2s ease; */
+  /* transition: all 0.2s ease; */
+}
+
+
+.inner-wrapper-sticky  ul{
+    flex-direction: column;
+}
+
+
+/* Dropdown menu configuracion */
+
+.gestion.dropdown {
+  position: relative;
+  order: -1;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu ul{
+    flex-direction: column;
+    text-align: left;
+}
+
+.dropdown-menu {
+  position: absolute;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  pointer-events: none;
+  background-color: black;
+}
+
+.gestion.dropdown > .btn-dropdown:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.idioma.dropdown > .btn-dropdown:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}

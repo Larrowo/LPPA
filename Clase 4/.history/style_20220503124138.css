@@ -1,0 +1,125 @@
+#site-header{
+    background-color: #d85e5e;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    font-family: "Poppins", sans-serif;;
+    background-color: #00558c;
+}
+
+
+ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+#header-post {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#header-post .title-post {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#header-post .headline-post {
+    font-size: 16px;
+    line-height: 130%;
+    padding: 0 100px;
+    color: #00558c;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.entry{
+    text-align: left;
+}
+
+.entry p {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto 20px auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0 8px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.social-share ul li a {
+    pointer-events: all;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #00558c;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.gestion.dropdown{
+ position: relative;
+}
+
+.dropdown-menu a{
+    color:white;
+}
+
+.dropdown-menu{
+    position: absolute;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    opacity:0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    pointer-events: none;
+    background-color: black;
+}
+
+
+.gestion.dropdown > .btn-dropdown:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+} 
+
+.idioma.dropdown > .btn-dropdown:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+} 
