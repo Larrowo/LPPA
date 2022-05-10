@@ -2,25 +2,10 @@
 
 Trabajos y ejercicios LPPA
 
-4/5/22
-First change.
+News page (aka clase 2):https://www.rosario3.com/informaciongeneral/Inseguridad-en-la-autopista-a-Cordoba-como-es-el-puesto-movil-que-instalo-la-Policia-20220415-0013.html
 
-News page devLog (aka clase 2):
+second news page page (aka Clase 3):https://codigoesports.com/csgo-major-antwerp-equipos/
 
-04/15/2022- 6:33pm
-First news page version
+third page (aka Clase 4):https://www.santafe.gov.ar/noticias/noticia/274554/#
 
-04/16/2022 - 5:28pm
-General layout finished with images.
-First css elements added.
-
-04/16/2022 - 5:32pm
-Forgot to save changelog changes, commiting again
-
-04/19/2022 - 2:27pm
-Last html elements added
-
-Second page devLog (aka Clase 3):
-
-04/26/2022 5:32pm
-Finished page
+Responsive news page (aka Clase 5):https://www.santafe.gov.ar/noticias/noticia/274554/#
