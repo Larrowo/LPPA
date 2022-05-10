@@ -1,0 +1,46 @@
+#site-header{
+    background-color: #d85e5e;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gestion.dropdown{
+ position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    opacity:0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    pointer-events: none;
+}
+
+
+.gestion.dropdown > .btn-dropdown:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+} 
+
+.idioma.dropdown > .btn-dropdown:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+} 
